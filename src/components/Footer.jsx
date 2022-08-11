@@ -1,9 +1,8 @@
-import "../styles/Footer.css"
+import "../styles/Footer.scss"
     
 export default function Footer() { 
     return (
         <footer className="footer">
-            <ul className="footer-icons">
                 <a href="#!" className="footer-icon">
                     <i className="bi bi-twitter"></i>
                 </a>
@@ -16,7 +15,6 @@ export default function Footer() {
                 <a  href="#!" className="footer-icon">
                     <i className="bi bi-github"></i>
                 </a>
-            </ul>
         </footer>
     ); 
 }

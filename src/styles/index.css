@@ -5,6 +5,7 @@
 body { 
     margin: 0;
     font-family: Inter; 
+    background: #23252C;
 }
 
 ul, li { 
@@ -16,6 +17,6 @@ a {
 }
 
 #root {
-    background: #23252C;
+    
     height: 100vh;
 }

@@ -1,4 +1,21 @@
 .footer { 
     background-color: #161619;
     border-radius: 0px 0px 10px 10px;
+    padding: 18px;
+}
+
+.footer-icons { 
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.footer-icons>a {
+    color:#161619;
+}
+
+.footer-icon {
+    background: #918E9B;
+    border-radius: 2px;
+    padding: 5px 6px 5px 6px;
 }
